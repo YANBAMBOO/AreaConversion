@@ -33,7 +33,7 @@ win.wm_title("面積換算小程式")                 # 設定抬頭名稱
 win.minsize(width=400, height=200)   # 320,200
 win.maxsize(width=400, height=200)  # 1024 768
 win.resizable(width=False, height=False) # 是否可以改變視窗大小
-#background_image = ImageTk.PhotoImage(Image.open("background.jpg"))
+#background_image = ImageTk.PhotoImage(Image.open("background.jpg"))    #加入背景圖片
 #background_label = tk.Label(win, image=background_image)
 #background_label.place(x=0, y=0, relwidth=1, relheight=1)
 
